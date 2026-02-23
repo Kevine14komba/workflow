@@ -16,7 +16,7 @@ jobs:
         run: echo "STEP2= ${{ vars.STEP2 }}"
 
       - name: Étape 3 - Build 
-        run: echo "Build en cours..."
+        run:  echo "${{ secret.MY_SECRET }}"
 
       - name: Étape 4 - Tests 
         run: echo "Tests en cours..."
