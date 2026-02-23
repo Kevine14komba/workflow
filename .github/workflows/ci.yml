@@ -1,0 +1,23 @@
+
+  init:
+    runs-on: ubuntu-latest
+    env:
+      STEP1: "Le code vient d'etre poussé sur gitHub"
+    steps:
+      - name: Étape 1 - Initialisation 
+        run: echo "STEP1 = $STEP1" 
+
+      - name: Étape 2 - Récupération du code 
+        run: echo "Récupération du code..."
+
+      - name: Étape 3 - Build 
+        run: echo "Build en cours..."
+
+      - name: Étape 4 - Tests 
+        run: echo "Tests en cours..."
+
+      - name: Étape 5 - Packaging 
+        run: echo "Packaging en cours..."
+
+      - name: Étape 6 - Fin du pipeline 
+        run: echo "Pipeline terminé"
