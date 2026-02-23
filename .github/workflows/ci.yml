@@ -13,7 +13,7 @@ jobs:
 
 
       - name: Étape 2 - Récupération du code 
-        run: echo "STEP2 = $ {{vars.STEP2}}"
+        run: echo "STEP2= ${{ vars.STEP2 }}"
 
       - name: Étape 3 - Build 
         run: echo "Build en cours..."
